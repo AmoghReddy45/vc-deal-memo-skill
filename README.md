@@ -23,6 +23,32 @@ python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-githu
   --method git
 ```
 
+## Install For Claude Code
+
+Claude Code uses the same `SKILL.md` folder pattern. Install the skill into your personal Claude skills folder:
+
+```bash
+mkdir -p ~/.claude/skills
+git clone https://github.com/AmoghReddy45/vc-deal-memo-skill.git
+cp -R vc-deal-memo-skill/vc-deal-memo ~/.claude/skills/
+```
+
+Then open Claude Code and invoke:
+
+```text
+/vc-deal-memo
+```
+
+For a single project only, copy the folder to:
+
+```bash
+.claude/skills/vc-deal-memo
+```
+
+## Install For Claude.ai
+
+Zip the `vc-deal-memo` folder and upload it as a custom Skill in Claude.ai settings. The `agents/openai.yaml` file is Codex-specific metadata and can be left in place; Claude ignores unsupported supporting files.
+
 ## Manual Install
 
 ```bash
