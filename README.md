@@ -14,6 +14,15 @@ Use $skill-installer to install https://github.com/AmoghReddy45/vc-deal-memo-ski
 
 Then restart Codex to pick up the new skill.
 
+If installing from a terminal, this verified command uses git directly:
+
+```bash
+python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
+  --repo AmoghReddy45/vc-deal-memo-skill \
+  --path vc-deal-memo \
+  --method git
+```
+
 ## Manual Install
 
 ```bash
@@ -44,4 +53,3 @@ Use $vc-deal-memo to tighten this memo so it sounds more sponsor-grade and less 
 - ARR vs run-rate vs revenue language
 - Risk and watch-item framing
 - DOCX / PDF formatting standards
-
