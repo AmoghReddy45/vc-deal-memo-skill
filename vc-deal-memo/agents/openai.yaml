@@ -1,0 +1,4 @@
+interface:
+  display_name: "VC Deal Memo"
+  short_description: "Draft polished VC and syndicate memos"
+  default_prompt: "Use $vc-deal-memo to draft a finance-grade investment memo from my notes, diligence materials, and preferred memo structure."
