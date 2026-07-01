@@ -34,7 +34,7 @@ If the user does not specify, infer from the audience and output format.
 Load only the references needed for the task:
 
 - For section order and memo architecture, read `references/structure.md`.
-- For language, tone, thesis bullets, and sponsor voice, read `references/style.md`.
+- For language, tone, thesis bullets, sponsor voice, and non-generic writing craft, read `references/style.md`.
 - For valuation, comps, ARR/run-rate, pro-rata, and diligence math, read `references/finance-checks.md`.
 - For DOCX/PDF layout, tables, and presentation standards, read `references/formatting.md`.
 
@@ -43,8 +43,8 @@ Load only the references needed for the task:
 - Do not invent signals, customer names, revenue, investor participation, or insider process details.
 - Do not hide uncertainty; place it in the right container: "watch-item," "diligence question," "company-materials basis," or "to confirm in internal materials."
 - Do not use generic VC filler such as "massive market," "AI tailwinds," "category-defining" unless the memo proves the claim.
+- Do not write in generic AI prose. Prefer plain, finance-native sentences with specific nouns, clear verbs, and visible judgment.
 - Do not tell the recipient firm to confirm facts they already know. Prefer "actual sizing depends on internal cap-table position" over "confirm current ownership."
 - Do not overdo product description when the audience already knows the company. Prioritize why the business is now investable.
 - For LP-facing memos, use "watch-items" more often than "bear case" unless the house style says otherwise.
 - For DOCX/PDF deliverables, render and inspect the document before finalizing.
-
