@@ -1,0 +1,93 @@
+{
+  "title": "Example Syndicate Deal Memo",
+  "subtitle": "Prepared for Example Syndicate | July 2026",
+  "confidential": true,
+  "footer": "Example Syndicate | Confidential company information",
+  "meta": [
+    {
+      "label": "Opportunity",
+      "value": "$40M SAFE at $4B valuation cap"
+    },
+    {
+      "label": "Decision",
+      "value": "Participate up to the full allocation, subject to final review"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "ExampleCo is raising a primary SAFE. The case for participating is straightforward: company materials show strong growth, high-quality customer demand, and early profitability.",
+        "This is no longer early-entry pricing. The price can work if current run-rate quality, customer breadth, and margin durability hold."
+      ],
+      "deal_table": {
+        "rows": [
+          [
+            "Sector",
+            "Data for AI / AI infrastructure"
+          ],
+          [
+            "Raise Terms",
+            "$40M SAFE at a $4B valuation cap"
+          ],
+          [
+            "Syndicate Allocation",
+            "$2,000,000"
+          ],
+          [
+            "Security",
+            "SAFE; primary only"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Our Investment Thesis",
+      "bullets": [
+        {
+          "label": "Demand from the right buyers",
+          "text": "Company materials list the buyer categories that matter most in this market."
+        },
+        {
+          "label": "Exceptional reported velocity",
+          "text": "Company materials show growth from [A] to [B], alongside reported profitability."
+        },
+        {
+          "label": "Price discipline",
+          "text": "The round is not cheap. The case for participating is that scale, customer quality, and profitability may already support the cap."
+        }
+      ]
+    },
+    {
+      "title": "Comparable Companies and Transactions",
+      "paragraphs": [
+        "These comps are directionally useful, but not clean. Reported revenue may be gross billings, run-rate, or recognized revenue."
+      ],
+      "tables": [
+        {
+          "headers": [
+            "Company / Transaction",
+            "Valuation Context",
+            "Revenue / Run-Rate Context",
+            "Read-Through"
+          ],
+          "rows": [
+            [
+              "Target",
+              "$X valuation",
+              "$Y revenue",
+              "Pricing read for the target."
+            ],
+            [
+              "Comp A",
+              "$X valuation",
+              "$Y run-rate",
+              "What this comp does and does not prove."
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}
+

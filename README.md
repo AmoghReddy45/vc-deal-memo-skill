@@ -79,3 +79,22 @@ Use $vc-deal-memo to tighten this memo so it sounds more sponsor-grade and less 
 - ARR vs run-rate vs revenue language
 - Risk and watch-item framing
 - DOCX / PDF formatting standards
+- Deterministic house-style DOCX generation from JSON
+
+## Build A Styled DOCX
+
+For models that struggle to recreate the memo formatting manually, use the bundled builder:
+
+```bash
+python3 vc-deal-memo/scripts/house_memo_builder.py \
+  vc-deal-memo/assets/example_outline.json \
+  example_memo.docx
+```
+
+If `python-docx` is missing, install it first:
+
+```bash
+python3 -m pip install python-docx
+```
+
+The builder applies the house style automatically: Arial body text, black section bars, light gray table headers, compact spacing, thin borders, and the special two-column deal table.

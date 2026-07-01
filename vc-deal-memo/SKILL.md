@@ -28,6 +28,7 @@ If the user does not specify, infer from the audience and output format.
 4. **Write sponsor-grade copy:** direct, concise, finance-native, and not over-hedged. Use "company materials show/report/list" when relying on company-provided data.
 5. **Validate finance logic:** ARR vs run-rate, gross vs net revenue, valuation cap vs priced valuation, post-money math, ownership basis, dilution, pro-rata, multiples, comp cleanliness.
 6. **Polish the artifact:** tables where they improve skimmability, compact bullets, section bars, consistent headers, no orphan sections, and visual QA for DOCX/PDF outputs.
+7. **Use deterministic formatting when needed:** for polished DOCX output, prefer `scripts/house_memo_builder.py` over manually recreating layout. Convert the memo into a JSON outline and run the builder.
 
 ## Reference Routing
 
@@ -37,6 +38,7 @@ Load only the references needed for the task:
 - For language, tone, thesis bullets, sponsor voice, and non-generic writing craft, read `references/style.md`.
 - For valuation, comps, ARR/run-rate, pro-rata, and diligence math, read `references/finance-checks.md`.
 - For DOCX/PDF layout, tables, and presentation standards, read `references/formatting.md`.
+- For deterministic house-style DOCX generation, read `references/builder.md` and use `scripts/house_memo_builder.py`.
 
 ## Non-Negotiables
 
@@ -48,3 +50,4 @@ Load only the references needed for the task:
 - Do not overdo product description when the audience already knows the company. Prioritize why the business is now investable.
 - For LP-facing memos, use "watch-items" more often than "bear case" unless the house style says otherwise.
 - For DOCX/PDF deliverables, render and inspect the document before finalizing.
+- If another model is struggling with formatting, do not keep adding prose instructions. Use the builder script or a template-based workflow.
